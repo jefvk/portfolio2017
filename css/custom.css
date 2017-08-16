@@ -376,6 +376,16 @@
   .third .svg-background {
     display: none; } }
 
+@media screen and (max-width: 1300px) {
+  .second .inhoud .grid {
+    width: 95%;
+    margin: auto; } }
+
+@media screen and (max-width: 1024px) {
+  .second .inhoud .grid a, .second .inhoud .grid .bigr, .second .inhoud .grid .bigl {
+    float: left;
+    width: 30%; } }
+
 @media screen and (max-width: 500px) {
   .first .inhoud {
     margin-top: 20vh; }

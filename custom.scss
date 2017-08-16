@@ -428,6 +428,28 @@ $blue: #97DCFF;
       }
     }
 }
+@media screen and (max-width: 1300px){
+  .second{
+    .inhoud{
+      .grid{
+        width: 95%;
+        margin: auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .second{
+    .inhoud{
+      .grid{
+        a, .bigr, .bigl{
+          float: left;
+          width: 30%;
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 500px){
   .first{
     .inhoud{
