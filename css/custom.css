@@ -377,14 +377,14 @@
     display: none; } }
 
 @media screen and (max-width: 500px) {
-  .first .inhoud .intro svg {
-    width: 100%;
-    margin-top: .5vh; }
-  .first .inhoud h2 {
-    margin-top: -45vh; } }
-
-@media screen and (max-width: 320px) {
   .first .inhoud {
     margin-top: 20vh; }
+    .first .inhoud .intro svg {
+      width: 100%;
+      margin-top: .5vh; }
     .first .inhoud h2 {
-      margin-top: -50vh; } }
+      margin-top: -45vh; } }
+
+@media screen and (max-width: 320px) {
+  .first .inhoud h2 {
+    margin-top: -50vh; } }
