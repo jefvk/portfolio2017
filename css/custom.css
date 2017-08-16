@@ -425,13 +425,13 @@
       margin-top: -45vh; } }
 
 @media screen and (max-width: 400px) {
-  .fourth h2, .fifth h2 {
+  .fourth h2, .fifth h2, .second h2 {
     margin: auto;
     margin-bottom: 5px;
     margin-top: 5px; }
-  .fourth .inhoud p, .fourth .inhoud ul li, .fifth .inhoud p, .fifth .inhoud ul li {
+  .fourth .inhoud p, .fourth .inhoud ul li, .fifth .inhoud p, .fifth .inhoud ul li, .second .inhoud p, .second .inhoud ul li {
     font-size: 14px; }
-  .fourth .inhoud form fieldset label, .fourth .inhoud form fieldset input, .fifth .inhoud form fieldset label, .fifth .inhoud form fieldset input {
+  .fourth .inhoud form fieldset label, .fourth .inhoud form fieldset input, .fifth .inhoud form fieldset label, .fifth .inhoud form fieldset input, .second .inhoud form fieldset label, .second .inhoud form fieldset input {
     font-size: 14px; } }
 
 @media screen and (max-width: 320px) {
