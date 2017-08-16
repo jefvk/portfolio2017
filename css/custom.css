@@ -377,14 +377,23 @@
     display: none; } }
 
 @media screen and (max-width: 1300px) {
-  .second .inhoud .grid {
+  .second .inhoud .grid, .third .inhoud .grid {
     width: 95%;
     margin: auto; } }
 
 @media screen and (max-width: 1024px) {
-  .second .inhoud .grid a, .second .inhoud .grid .bigr, .second .inhoud .grid .bigl {
+  .second .inhoud .grid a, .second .inhoud .grid .bigr, .second .inhoud .grid .bigl, .third .inhoud .grid a, .third .inhoud .grid .bigr, .third .inhoud .grid .bigl {
     float: left;
     width: 30%; } }
+
+@media screen and (max-width: 600px) {
+  .second .inhoud .grid, .third .inhoud .grid {
+    width: 90%; }
+    .second .inhoud .grid a, .second .inhoud .grid .bigr, .second .inhoud .grid .bigl, .third .inhoud .grid a, .third .inhoud .grid .bigr, .third .inhoud .grid .bigl {
+      float: left;
+      width: 40%;
+      margin-left: 5%;
+      margin-right: 5%; } }
 
 @media screen and (max-width: 500px) {
   .first .inhoud {

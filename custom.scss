@@ -429,7 +429,7 @@ $blue: #97DCFF;
     }
 }
 @media screen and (max-width: 1300px){
-  .second{
+  .second, .third{
     .inhoud{
       .grid{
         width: 95%;
@@ -439,12 +439,27 @@ $blue: #97DCFF;
   }
 }
 @media screen and (max-width: 1024px) {
-  .second{
+  .second, .third{
     .inhoud{
       .grid{
         a, .bigr, .bigl{
           float: left;
           width: 30%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .second, .third{
+    .inhoud{
+      .grid{
+        width: 90%;
+        a, .bigr, .bigl{
+          float: left;
+          width: 40%;
+          margin-left:5%;
+          margin-right: 5%;
         }
       }
     }
