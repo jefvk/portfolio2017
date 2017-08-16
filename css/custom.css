@@ -293,6 +293,15 @@
   .fourth .inhoud {
     width: 100vh;
     margin: auto; }
+    .fourth .inhoud .inv {
+      display: none; }
+    .fourth .inhoud h3 {
+      color: #ea464b;
+      font-family: 'Patua One', cursive; }
+    .fourth .inhoud .skills ul {
+      font-family: 'ubuntu', sans-serif;
+      font-size: 16px;
+      color: white; }
     .fourth .inhoud .half {
       width: 50%;
       border-radius: 50%;
@@ -300,7 +309,6 @@
       display: block;
       margin: auto; }
     .fourth .inhoud p {
-      margin-top: 50px;
       color: white;
       float: right;
       font-family: 'ubuntu', sans-serif;
@@ -384,7 +392,19 @@
 @media screen and (max-width: 1024px) {
   .second .inhoud .grid a, .second .inhoud .grid .bigr, .second .inhoud .grid .bigl, .third .inhoud .grid a, .third .inhoud .grid .bigr, .third .inhoud .grid .bigl {
     float: left;
-    width: 30%; } }
+    width: 30%; }
+  .fourth .inhoud, .fifth .inhoud {
+    width: 90%; }
+    .fourth .inhoud .inv, .fifth .inhoud .inv {
+      display: block; }
+    .fourth .inhoud .vis, .fifth .inhoud .vis {
+      display: none; } }
+
+@media screen and (max-width: 800px) {
+  .fifth .inhoud .contact form .left, .fifth .inhoud .contact form .right {
+    float: left;
+    clear: both;
+    width: 100%; } }
 
 @media screen and (max-width: 600px) {
   .second .inhoud .grid, .third .inhoud .grid {
@@ -404,6 +424,20 @@
     .first .inhoud h2 {
       margin-top: -45vh; } }
 
+@media screen and (max-width: 400px) {
+  .fourth h2, .fifth h2 {
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px; }
+  .fourth .inhoud p, .fourth .inhoud ul li, .fifth .inhoud p, .fifth .inhoud ul li {
+    font-size: 14px; }
+  .fourth .inhoud form fieldset label, .fourth .inhoud form fieldset input, .fifth .inhoud form fieldset label, .fifth .inhoud form fieldset input {
+    font-size: 14px; } }
+
 @media screen and (max-width: 320px) {
   .first .inhoud h2 {
-    margin-top: -50vh; } }
+    margin-top: -50vh; }
+  .fourth .inhoud p, .fourth .inhoud ul li, .fifth .inhoud p, .fifth .inhoud ul li {
+    font-size: 12px; }
+    .fourth .inhoud p form fieldset label, .fourth .inhoud p form fieldset input, .fourth .inhoud ul li form fieldset label, .fourth .inhoud ul li form fieldset input, .fifth .inhoud p form fieldset label, .fifth .inhoud p form fieldset input, .fifth .inhoud ul li form fieldset label, .fifth .inhoud ul li form fieldset input {
+      font-size: 12px; } }

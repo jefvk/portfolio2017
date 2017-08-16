@@ -319,6 +319,20 @@ $blue: #97DCFF;
   .inhoud{
     width: 100vh;
     margin: auto;
+    .inv{
+      display:none;
+    }
+    h3{
+      color: $red;
+      font-family: 'Patua One', cursive;
+    }
+    .skills{
+      ul{
+        font-family: 'ubuntu', sans-serif;
+        font-size: 16px;
+        color: white;
+      }
+    }
     .half{
       width: 50%;
       border-radius: 50%;
@@ -327,7 +341,6 @@ $blue: #97DCFF;
       margin: auto;
     }
     p{
-      margin-top: 50px;
       color: white;
       float: right;
       font-family: 'ubuntu', sans-serif;
@@ -449,6 +462,32 @@ $blue: #97DCFF;
       }
     }
   }
+  .fourth, .fifth{
+    .inhoud{
+      width: 90%;
+      .inv{
+        display: block;
+      }
+      .vis{
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px){
+  .fifth{
+    .inhoud{
+      .contact{
+        form{
+          .left, .right{
+            float: left;
+            clear: both;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 600px) {
   .second, .third{
@@ -481,11 +520,46 @@ $blue: #97DCFF;
     }
   }
 }
+@media screen and (max-width: 400px){
+  .fourth, .fifth{
+    h2{
+      margin: auto;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+    .inhoud{
+      p, ul li{
+        font-size: 14px;
+      }
+      form{
+        fieldset{
+          label, input{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 320px){
   .first{
     .inhoud{
       h2{
         margin-top: -50vh;
+      }
+    }
+  }
+  .fourth, .fifth{
+    .inhoud{
+      p, ul li{
+        font-size: 12px;
+        form{
+          fieldset{
+            label, input{
+              font-size: 12px;
+            }
+          }
+        }
       }
     }
   }
