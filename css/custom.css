@@ -234,6 +234,7 @@
             height: 100%;
             text-align: center; }
             .third .inhoud .grid a figure figcaption h2 {
+              font-family: 'Patua One', cursive;
               margin: 0 0 20px 0;
               color: #3498db;
               text-transform: uppercase;
