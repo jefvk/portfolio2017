@@ -1,0 +1,6 @@
+.lightgallery {
+  width: 100vh;
+  margin: auto; }
+  .lightgallery a {
+    display: block;
+    width: 30%; }
