@@ -49,7 +49,7 @@
     transform: translate3d(2px, 0, 0); } }
 
 .uitleg {
-  width: 100vh;
+  width: 60%;
   display: block;
   margin: auto;
   text-align: center; }
@@ -61,7 +61,7 @@
     font-family: 'ubuntu', sans-serif; }
 
 .lightgallery {
-  width: 100vh;
+  width: 80%;
   margin: auto;
   margin-top: 50px; }
   .lightgallery a {
@@ -104,9 +104,13 @@
       transform: translateY(-50%) translateX(-50%) scale(0.25); }
 
 @media screen and (max-width: 800px) {
-  .lightgallery a {
-    width: 30%;
-    margin: 1.5%; } }
+  .uitleg {
+    width: 95%; }
+  .lightgallery {
+    width: 95%; }
+    .lightgallery a {
+      width: 30%;
+      margin: 1.5%; } }
 
 @media screen and (max-width: 600px) {
   .lightgallery a {

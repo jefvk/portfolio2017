@@ -43,7 +43,7 @@ $blue: #97DCFF;
 }
 
 .uitleg{
-  width: 100vh;
+  width: 60%;
   display: block;
   margin: auto;
   text-align: center;
@@ -59,7 +59,7 @@ $blue: #97DCFF;
 
 
 .lightgallery{
-  width: 100vh;
+  width: 80%;
   margin: auto;
   margin-top: 50px;
   a{
@@ -99,7 +99,11 @@ $blue: #97DCFF;
 }
 
 @media screen and (max-width:800px){
+  .uitleg{
+    width: 95%;
+  }
   .lightgallery{
+    width: 95%;
     a{
       width: 30%;
       margin: 1.5%;
