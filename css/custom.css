@@ -75,7 +75,8 @@
         border-radius: 10px;
         background: #ea464b; }
         .second .inhoud .grid a:hover figure img {
-          opacity: 1; }
+          -webkit-filter: grayscale(0%);
+          filter: grayscale(0%); }
         .second .inhoud .grid a:hover figcaption h2 {
           -webkit-transform: translateY(0);
           -ms-transform: translateY(0);
@@ -95,9 +96,11 @@
             position: relative;
             display: block;
             width: 100%;
-            -webkit-transition: opacity 0.3s;
-            -o-transition: opacity 0.3s;
-            transition: opacity 0.3s; }
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%); }
           .second .inhoud .grid a figure svg {
             position: absolute;
             top: -1px;
@@ -193,7 +196,8 @@
         border-radius: 10px;
         background: black; }
         .third .inhoud .grid a:hover figure img {
-          opacity: 1; }
+          -webkit-filter: grayscale(0%);
+          filter: grayscale(0%); }
         .third .inhoud .grid a:hover figcaption h2 {
           -webkit-transform: translateY(0);
           -ms-transform: translateY(0);
@@ -213,9 +217,11 @@
             position: relative;
             display: block;
             width: 100%;
-            -webkit-transition: opacity 0.3s;
-            -o-transition: opacity 0.3s;
-            transition: opacity 0.3s; }
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%); }
           .third .inhoud .grid a figure svg {
             position: absolute;
             top: -1px;
@@ -411,6 +417,10 @@
     clear: both;
     width: 100%; } }
 
+@media screen and (max-width: 700px) {
+  .second .inhoud .grid a figure figcaption h2, .third .inhoud .grid a figure figcaption h2 {
+    font-size: 14px; } }
+
 @media screen and (max-width: 600px) {
   .second .inhoud .grid, .third .inhoud .grid {
     width: 90%; }
@@ -437,7 +447,9 @@
   .fourth .inhoud p, .fourth .inhoud ul li, .fifth .inhoud p, .fifth .inhoud ul li, .second .inhoud p, .second .inhoud ul li {
     font-size: 14px; }
   .fourth .inhoud form fieldset label, .fourth .inhoud form fieldset input, .fifth .inhoud form fieldset label, .fifth .inhoud form fieldset input, .second .inhoud form fieldset label, .second .inhoud form fieldset input {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .second .inhoud .grid a figure figcaption h2, .third .inhoud .grid a figure figcaption h2 {
+    font-size: 12px; } }
 
 @media screen and (max-width: 320px) {
   .first .inhoud h2 {

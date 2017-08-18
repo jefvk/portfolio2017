@@ -94,7 +94,7 @@ $blue: #97DCFF;
           border-radius: 10px;
           background: $red;
           &:hover figure img{
-            opacity: 1;
+            filter: grayscale(0%);
           }
           &:hover figcaption h2{
             transform: translateY(0);
@@ -113,7 +113,9 @@ $blue: #97DCFF;
             position: relative;
             display: block;
             width: 100%;
-            transition: opacity 0.3s;
+            transition:0.3s;
+            filter: grayscale(100%);
+
           }
           svg{
             position: absolute;
@@ -216,7 +218,7 @@ $blue: #97DCFF;
             border-radius: 10px;
             background: black;
             &:hover figure img{
-              opacity: 1;
+              filter: grayscale(0%);
             }
             &:hover figcaption h2{
               transform: translateY(0);
@@ -235,7 +237,8 @@ $blue: #97DCFF;
               position: relative;
               display: block;
               width: 100%;
-              transition: opacity 0.3s;
+              transition:0.3s;
+              filter: grayscale(100%);
             }
             svg{
               position: absolute;
@@ -494,6 +497,23 @@ $blue: #97DCFF;
     }
   }
 }
+@media screen and (max-width: 700px){
+  .second, .third{
+    .inhoud{
+      .grid{
+        a{
+          figure{
+            figcaption{
+              h2{
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 600px) {
   .second, .third{
     .inhoud{
@@ -540,6 +560,21 @@ $blue: #97DCFF;
         fieldset{
           label, input{
             font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .second, .third{
+    .inhoud{
+      .grid{
+        a{
+          figure{
+            figcaption{
+              h2{
+                font-size: 12px;
+              }
+            }
           }
         }
       }
