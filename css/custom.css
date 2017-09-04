@@ -428,7 +428,9 @@
       float: left;
       width: 40%;
       margin-left: 5%;
-      margin-right: 5%; } }
+      margin-right: 5%; }
+    .second .inhoud .grid .last, .third .inhoud .grid .last {
+      margin-top: -41%; } }
 
 @media screen and (max-width: 500px) {
   .first .inhoud {
