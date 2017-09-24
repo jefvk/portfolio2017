@@ -16,7 +16,6 @@ $('.grid').isotope({
 var $grid = $('.grid').isotope({
 });
 
-$(".main").onepage_scroll({});
 
 var flikker = function(){
   var j = document.getElementsByClassName("j")[0];
@@ -53,3 +52,5 @@ function animate(){
 }
 
 setInterval(animate, 1000);
+
+$(".main").onepage_scroll({});
